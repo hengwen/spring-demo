@@ -1,0 +1,12 @@
+server:
+  port: 8097
+logging:
+  config: classpath:logback-custom.xml
+  level:
+    cn:
+      jtoss:
+        debug
+    org:
+      springframework:
+        boot:
+          autoconfigure: info

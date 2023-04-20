@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cn.jtoss</groupId>
-	<artifactId>sprintboothotdeploy</artifactId>
+	<artifactId>springbootresponse</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sprintboothotdeploy</name>
+	<name>springbootresponse</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -31,11 +31,11 @@
 			<version>1.18.24</version>
 			<optional>true</optional>
 		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-devtools</artifactId>-->
-<!--			<optional>true</optional> &lt;!&ndash; 可以防止将devtools依赖传递到其他模块中 &ndash;&gt;-->
-<!--		</dependency>-->
+		<!--参数校验器-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
