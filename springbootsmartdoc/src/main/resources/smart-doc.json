@@ -1,0 +1,23 @@
+{
+  "serverUrl": "http://127.0.0.1:8096",
+  "outPath": "src/main/resources/static/doc",
+  "allInOne": true,
+  "createDebugPage": true,
+  "allInOneDocFileName":"index.html",
+  "projectName": "springboot-smart-doc",
+  "responseBodyAdvice":{
+    "className":"cn.jtoss.springbootsmartdoc.response.ResultResponse"
+  },
+  "requestHeaders": [
+    {
+      "name": "Authorization",
+      "type": "string",
+      "desc": "自定义请求头 - token",
+      "value":"123456",
+      "required": false,
+      "since": "-",
+      "pathPatterns": "/valid/add",
+      "excludePathPatterns":"/valid/edit"
+    }
+  ]
+}
