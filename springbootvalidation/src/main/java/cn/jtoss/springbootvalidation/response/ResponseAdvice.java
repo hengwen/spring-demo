@@ -1,4 +1,4 @@
-package cn.jtoss.springbootresponse.response;
+package cn.jtoss.springbootvalidation.response;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
