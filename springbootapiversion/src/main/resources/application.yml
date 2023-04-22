@@ -1,0 +1,17 @@
+server:
+  port: 8095
+logging:
+  config: classpath:logback-custom.xml
+  level:
+    cn:
+      jtoss:
+        debug
+    org:
+      springframework:
+        boot:
+          autoconfigure: info
+
+springfox:
+  documentation:
+    swagger-ui:
+      enabled: true
